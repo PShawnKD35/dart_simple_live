@@ -69,8 +69,8 @@ dependencies:
   signalr_netcore: ^1.4.4 #SignalR
 
   # 视频播放
-  media_kit: ^1.2.2
-  media_kit_video: ^2.0.0
+  media_kit: ^1.2.6
+  media_kit_video: ^2.0.1
   media_kit_libs_video: ^1.0.7
 
   flutter:
