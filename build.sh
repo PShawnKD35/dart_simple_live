@@ -15,8 +15,7 @@ code_path=`pwd`
 # rm -rf $code_path/simple_live_app/android/GeneratedPluginRegistrant.java
 # rm -rf $code_path/simple_live_app/android/.cxx/
 
-# docker run --rm \
-docker run \
+docker run --rm \
   -v $code_path:/work \
   -w /work/simple_live_app \
   ghcr.io/cirruslabs/flutter:stable \
